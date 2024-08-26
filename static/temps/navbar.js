@@ -155,7 +155,7 @@ sydDOM.createLogo = () =>{
     return createElement(
         'a',
         {
-            style:`min-height:70px;min-width:70px;background-image:url("../assets/logo.jpg")`,
+            style:`min-height:70px;min-width:70px;background-image:url(../assets/logo.jpg)`,
             href:'/'
         },[],{genericStyle:['bg_cover']}
     )
